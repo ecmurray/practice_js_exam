@@ -7,7 +7,8 @@ if (copy_address_btn) {
         // copy_address_btn.innerHTML.select();
         // copy_address_btn.innerHTML.setSelectionRange(0, 99999);
         // navigator.clipboard.writeText(copy_address_btn.innerHTML.value);
-        var copy_html = document.querySelector("#billing").innerHTML;
+        
+        // var copy_html = document.querySelector("#billing").innerHTML;
         document.querySelector("#home").innerHTML = copy_address_btn.innerHTML;
     });
 }
